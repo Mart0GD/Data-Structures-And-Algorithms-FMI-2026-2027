@@ -209,4 +209,12 @@ bool full()  { return size == capacity; }
 
 ## Задачи за упражнение 
 
+**1. [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/description/?envType=problem-list-v2&envId=queue)**
+
+**2. [Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/description/?envType=problem-list-v2&envId=queue)**
+
+**3. [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/description/?envType=problem-list-v2&envId=queue)**
+
+**4. [Dota2 Senate](https://leetcode.com/problems/dota2-senate/description/?envType=problem-list-v2&envId=queue)**
+
 
