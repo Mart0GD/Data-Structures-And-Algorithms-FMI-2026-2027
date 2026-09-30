@@ -200,9 +200,5 @@
 **24. [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/?envType=problem-list-v2&envId=linked-list)**
 
 **25. [Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/?envType=problem-list-v2&envId=linked-list)**
-
-----
-
-Освен тези задачи решете и задачата Студентски Бар, качена в папката **материали**!
  
 
