@@ -217,4 +217,7 @@ bool full()  { return size == capacity; }
 
 **4. [Dota2 Senate](https://leetcode.com/problems/dota2-senate/description/?envType=problem-list-v2&envId=queue)**
 
+----
+
+Освен тези задачи, решете и задачата Студентски Бар от папката с **материали**!
 
