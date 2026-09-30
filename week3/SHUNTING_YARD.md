@@ -519,8 +519,7 @@ Prefix notation
 
 ## Задачи за упражнение 
 
-### Задачи от Leetcode
----
+### Leetcode
 
 **Задача 1 - [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/?envType=problem-list-v2&envId=stack)**
 
@@ -528,10 +527,10 @@ Prefix notation
 
 **Задача 3 - [Basic Calculator](https://leetcode.com/problems/basic-calculator/description/?envType=problem-list-v2&envId=stack)**
 
-### Задача от стари домашни
 
----
+### Задачи от стари домашни
 
+----
 **Задача 1** 
 
 Реализирайте програма, която прочита и изчислява израз, записан в инфиксен запис, съставен от скоби, цели числа и операции. 
