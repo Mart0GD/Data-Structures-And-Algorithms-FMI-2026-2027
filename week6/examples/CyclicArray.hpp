@@ -32,7 +32,7 @@ public:
 
     ~CyclicArray() noexcept;
 
-    //  #### MODIFICATION OPPERATIONS  --> O(1) ####
+    //  #### FAST STACK/QUEUE OPPERATIONS  --> O(1) ####
 
     void        push_front(const T& val);
     void        push_back(const T& val);
@@ -49,7 +49,7 @@ public:
     const T&    front() const;   
     const T&    back()  const;  
 
-    //  #### SLOW OPERATIONS    --> O(n) ####
+    //  #### SLOW ARRAY OPERATIONS    --> O(n) ####
 
     void        remove_at(uint32_t index);
     void        insert_at(uint32_t index, const T& val);
