@@ -3,7 +3,7 @@
 Двусвързаният списък е естественото продължение на едносвързания, с цел да направи структурата по-удобна за използване. Можем да си представим, че имаме два едносвързани списъка, като единият от дях е обърнат. 
 
 <div align="center">
-  <img src="misc/dllist.webp"></img>
+  <img src="misc/dllist.webp" width="700"></img>
 </div>
 
 ## Singly Linked List vs Doubly Linked List
