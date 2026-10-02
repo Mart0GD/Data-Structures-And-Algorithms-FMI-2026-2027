@@ -4,7 +4,7 @@
 
 | Дата       | Тема |
 |------------|------|
-| **06.10.2026** | [Увод - информация за курса, алгоритмични сложности, рекурсия](https://github.com/Mart0GD/Data-Structures-And-Algorithms-FMI-2026-2027/tree/main/week1) |
+| **06.10.2026** | [Увод - информация за курса, алгоритмичнa сложност, рекурсия](https://github.com/Mart0GD/Data-Structures-And-Algorithms-FMI-2026-2027/tree/main/week1) |
 
 ## Допълнителни ресурси и задачи
 
