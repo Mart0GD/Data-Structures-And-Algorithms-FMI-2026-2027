@@ -294,3 +294,9 @@ void dfs_postorder(node* root)
 | Време                    | `O(n)`                      | `O(n)`                       |
 | Допълнителна памет       | `O(w)`, `w` е най-широкото ниво | `O(h)`, `h` е височината |
 | Подходящо за             | Най-близкия възел до корена | Обработка на цели поддървета |
+
+
+### Източници
+
+* **[LcRs wikipedia](https://en.wikipedia.org/wiki/Left-child_right-sibling_binary_tree)**
+* **[Програмиране = ++Алгоритми; (Глава 2.2)](https://www.programirane.org/wp-content/uploads/downloads/2015/09/Programirane=++Algoritmi-v2015.pdf)**
