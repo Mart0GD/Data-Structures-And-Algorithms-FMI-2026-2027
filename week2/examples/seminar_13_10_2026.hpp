@@ -1,5 +1,5 @@
-#ifndef __PRACTICE_HPP_INCLUDED__
-#define __PRACTICE_HPP_INCLUDED__
+#ifndef __SEMINAR_13_10_2026_HPP_INCLUDED__
+#define __SEMINAR_13_10_2026_HPP_INCLUDED__
 
 // 1. Преговор от миналото упражнение
 
