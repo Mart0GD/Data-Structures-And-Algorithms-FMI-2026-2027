@@ -5,6 +5,7 @@
 | Дата       | Тема |
 |------------|------|
 | **06.10.2026** | [Увод - информация за курса, алгоритмичнa сложност, рекурсия](https://github.com/Mart0GD/Data-Structures-And-Algorithms-FMI-2026-2027/tree/main/week1) |
+| **13.10.2026** | [Шаблони - особености, локалност - пространствена, времева, АСД - динамичен масив ](https://github.com/Mart0GD/Data-Structures-And-Algorithms-FMI-2026-2027/tree/main/week2) |
 
 ## Допълнителни ресурси и задачи
 
