@@ -49,6 +49,7 @@ int main() {
     fun<int>(2);
     fun<double>(3.5);
 }
+```
 
 <details>
 <summary> Отговор </summary>
