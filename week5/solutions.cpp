@@ -3,6 +3,7 @@
 #include <string>
 #include <stack>
 #include <iostream>
+#include <cassert>
 
 using std::string;
 using std::vector;
@@ -130,3 +131,77 @@ private:
 
     std::queue<int> requests;
 };
+
+
+typedef struct player
+{
+    int index;
+    int save_cards;
+} player; 
+
+unsigned int kittens(const std::string& cards, unsigned int players)
+{
+    const char BOMB = 'B';
+    const char SAVE = 'S';
+    const char NTH  = 'O';
+    
+    std::queue<player> game;
+    std::queue<char>   deck;
+
+    for(int i = 0; i < players; ++i) game.push({i + 1,0});
+    for(char c : cards)              deck.push(c);
+
+
+    while(game.size() != 1)
+    {
+        player player_on_turn = game.front(); game.pop();
+	char   card           = deck.front(); deck.pop();
+
+	switch(card)
+	{
+            case NTH:  // do nothing...
+	        game.push(player_on_turn);
+	    	std::cout << "Player " << player_on_turn.index << " drew an ordinary card!\n"; 
+	    break;
+
+	    case SAVE: // add a save card
+                player_on_turn.save_cards++;
+                game.push(player_on_turn);
+
+		std::cout << "Player " << player_on_turn.index << " gained a SAVE card!\n"; 
+	    break;
+
+	    case BOMB: // try to kill player
+                player_on_turn.save_cards--;
+	    
+	        if(player_on_turn.save_cards >= 0)
+		{
+		    std::cout << "Player " << player_on_turn.index << " used a SAVE card!\n";
+		    game.push(player_on_turn);
+		    deck.push(BOMB);
+		}
+		else std::cout << "Player " << player_on_turn.index << " has been killed!\n";
+
+	    break;
+	}
+
+    }
+    
+    return game.front().index;
+}    
+
+int main(void)
+{
+    std::cout << "Game 1:\n ------------------ \n";
+    assert(kittens("BB", 3) == 3);
+
+    std::cout << "Game 2:\n ------------------ \n";
+    assert(kittens("SSBB", 3) == 2);
+
+    std::cout << "Game 3:\n ------------------ \n";
+    kittens("SSBBOOOOOOOSBOOOOOOOOOSB", 5);
+
+    std::cout << "Game 4:\n ------------------ \n";
+    kittens("SOOSBBOOOOSOOOSBOSOOBOSOSOOBOSOSOOB", 7); 
+    return 0;
+}    
