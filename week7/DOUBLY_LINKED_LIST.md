@@ -115,9 +115,32 @@
 Изход: 5
 ~~~
 
-**Задача 3 - [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/description/?envType=problem-list-v2&envId=doubly-linked-list)**
+**Задача 3**
 
-**Задача 4 - [LRU Cache](https://leetcode.com/problems/lru-cache/description/?envType=problem-list-v2&envId=doubly-linked-list)**
+Да се дефинира функция mirror, която добавя към свързан списък неговото огледално копие.
+
+```
+Вход:
+1<->4<->5
+Изход:
+1<->4<->5<->5<->4<->1
+```
+
+**Задача 4**
+
+Даден ви е указател към началния елемент на двусвързан списък с коректни връзки в линейна последователност (той е правилен едносвързан списък), но нищо не се знае за предишните елементи. Поправете списъка!
+
+```
+         |--|
+Вход: 1->4->5___
+      |-----|  |
+      |--------|
+Изход: 1<->4<->5
+```
+
+**Задача 5 - [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/description/?envType=problem-list-v2&envId=doubly-linked-list)**
+
+**Задача 6 - [LRU Cache](https://leetcode.com/problems/lru-cache/description/?envType=problem-list-v2&envId=doubly-linked-list)**
 
 ----
 
